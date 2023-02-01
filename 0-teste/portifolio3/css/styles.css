@@ -1,5 +1,6 @@
 :root {
   --primary: #00baf2;
+  
   --secondary: #95989a;
   --text-color: #fff;
   --text-secondary: #000;
@@ -106,6 +107,12 @@
   text-align: center;
   text-decoration: none;
 }
+.atalho{
+  display: flex;justify-content: space-around;
+}
+.atalho div{
+  width: 40%;
+}
 .btn:hover {
   opacity: 1;
 }
@@ -170,6 +177,7 @@
   margin-bottom: 3em;
 }
 #location2 {
+  
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../img/informatica_banner.png");
@@ -360,7 +368,7 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
   }
 
   /* Event location */
-  #location {
+  #location , #location2 {
     flex-direction: column;
     height: auto;
     text-align: center;
