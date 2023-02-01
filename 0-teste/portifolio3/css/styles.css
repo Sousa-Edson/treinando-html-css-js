@@ -20,6 +20,7 @@
   background-size: cover;
   height: 85vh;
   display: flex;
+   
   justify-content: space-evenly;
   align-items: center;
   color: var(--text-color);
@@ -38,7 +39,7 @@
 #disclaimer .about-event {
   font-size: 2em;
   text-transform: uppercase;
-  max-width: 350px;
+  max-width: 450px;
   font-weight: bold;
   margin-bottom: 1em;
 }
@@ -94,7 +95,17 @@
   cursor: pointer;
   opacity: 0.8;
 }
-
+.visit{
+  /* background-color: red; */
+  margin: 15px;
+  /* padding-top: 500px; */
+}
+.visit .btn{
+  display: block;
+  /* width: 100%; */
+  text-align: center;
+  text-decoration: none;
+}
 .btn:hover {
   opacity: 1;
 }
