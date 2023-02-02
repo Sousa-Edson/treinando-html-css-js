@@ -1,7 +1,6 @@
 :root {
   --primary: #00baf2;
-  
-  --secondary: #95989a;
+    --secondary: #95989a;
   --text-color: #fff;
   --text-secondary: #000;
   --text-tertiary: #5d5d5d;
@@ -52,19 +51,7 @@
 
 #about .event-notion {
   font-weight: bold;
-}
-
-/* #subscription-form {
-  background-color: var(--secondary);
-  padding: 1em;
-  max-width: 22%;
-}
-
-#subscription-form p {
-  font-size: 1.5em;
-  color: var(--text-secondary);
-  margin-bottom: 1em;
-} */
+} 
 
 .form-group {
   display: flex;
@@ -97,13 +84,10 @@
   opacity: 0.8;
 }
 .btn-group{
-  /* background-color: red; */
   margin: 15px;
-  /* padding-top: 500px; */
 }
 .btn-group .btn{
   display: block;
-  /* width: 100%; */
   text-align: center;
   text-decoration: none;
 }
@@ -145,7 +129,6 @@
 .technology .technology-img {
   width: 250px;
   height: 250px;
-  /* border-radius: 50%; */
   background-size: cover;
   background-position: center;
   margin-bottom: 1em;
@@ -163,7 +146,7 @@
   background-image: url("../img/postgresql-original.svg");
 }
 
-/* Event formation */
+/* section formation */
 #formation {
   height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -177,8 +160,7 @@
   margin-bottom: 3em;
 }
 #formation2 {
-  
-  height: 400px;
+    height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../img/informatica_banner.png");
   background-position: center;
@@ -221,7 +203,7 @@
   line-height: 1.5em;
 }
 
-/* Event details container */
+/*  details container */
 #details {
   width: 80%;
   margin: 0 auto;
@@ -271,12 +253,11 @@
   font-weight: bold;
 }
 
-/* Call to Action Section */
+/*  Contact Section */
 #contact {
   height: 300px;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
 url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=6000");
-    /* url("../img/hrz-6.jpg");https://images.unsplash.com/photo-1618247130379-980b9fe0df04?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=6000 */
   background-position: center;
   background-size: cover;
   display: flex;
@@ -375,7 +356,7 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
     margin-bottom: 2em;
   }
 
-  /* Event formation */
+  /* section formation */
   #formation , #formation2 {
     flex-direction: column;
     height: auto;
@@ -406,7 +387,7 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
     display: none;
   }
 
-  /* Event details container */
+  /*  details container */
   .detail {
     flex-direction: column;
     margin-bottom: 0.5em;
@@ -434,7 +415,7 @@ url("https://images.unsplash.com/photo-1602576666092-bf6447a729fc?ixlib=rb-4.0.3
     order: 1;
   }
 
-  /* Call to Action Section */
+  /*  Contact Section */
   #contact .btn {
     width: 80%;
   }
